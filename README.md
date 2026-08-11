@@ -2,6 +2,15 @@
 
 **Generate AI images with one python file!**
 
+<p align="center">
+  <img src="Image_Tests/phto1.png" width="170" alt="Neon-lit rainy street at night">
+  <img src="Image_Tests/phto2.png" width="170" alt="Miniature jungle terrarium on a desk">
+  <img src="Image_Tests/phto3.png" width="170" alt="Ballerina mid-leap in a cathedral">
+  <img src="Image_Tests/phto4.png" width="170" alt="Product shot of three wristwatches">
+</p>
+
+<p align="center"><sub>All four generated on a laptop CPU with the default settings — see <a href="Image_Tests">Image_Tests/</a>.</sub></p>
+
 A single-file, CPU-only text-to-image generator. Run it, type a prompt, get a PNG. No GPU, no web UI, no API keys — just Python and patience.
 
 Built on [Hugging Face Diffusers](https://github.com/huggingface/diffusers) using the **[Lykon/dreamshaper-8](https://huggingface.co/Lykon/dreamshaper-8)** model (a Stable Diffusion 1.5 fine-tune).

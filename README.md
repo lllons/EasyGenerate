@@ -2,14 +2,41 @@
 
 **Generate AI images with one python file!**
 
-<p align="center">
-  <img src="Image_Tests/phto1.png" width="170" alt="Neon-lit rainy street at night">
-  <img src="Image_Tests/phto2.png" width="170" alt="Miniature jungle terrarium on a desk">
-  <img src="Image_Tests/phto3.png" width="170" alt="Ballerina mid-leap in a cathedral">
-  <img src="Image_Tests/phto4.png" width="170" alt="Product shot of three wristwatches">
-</p>
+<table align="center">
+<tr>
+<td align="center"><img src="Image_Tests/phto1.png" width="165" alt="Neon-lit rainy Tokyo street at night"><br><sub>Rainy neon Tokyo</sub></td>
+<td align="center"><img src="Image_Tests/phto2.png" width="165" alt="Miniature tropical island inside a glass bottle"><br><sub>Island in a bottle</sub></td>
+<td align="center"><img src="Image_Tests/phto3.png" width="165" alt="Ballerina mid-leap in an abandoned cathedral"><br><sub>Cathedral ballerina</sub></td>
+<td align="center"><img src="Image_Tests/phto4.png" width="165" alt="Minimalist smartwatch product poster"><br><sub>Product poster</sub></td>
+</tr>
+</table>
 
 <p align="center"><sub>All four generated on a laptop CPU with the default settings — see <a href="Image_Tests">Image_Tests/</a>.</sub></p>
+
+<details>
+<summary><b>Prompts used for these samples</b> (click to expand)</summary>
+
+<br>
+
+**1 · Rainy neon Tokyo**
+
+> A futuristic Tokyo street at night during heavy rain, neon signs reflected in puddles, pedestrians with transparent umbrellas, flying drones overhead, dense atmospheric fog, cyberpunk aesthetic, extremely detailed, wide-angle composition.
+
+**2 · Island in a bottle**
+
+> A glass bottle containing a miniature tropical island with palm trees, a waterfall, tiny birds, and glowing fireflies, sitting on a wooden desk beside an open notebook, magical realism, macro photography, soft window light.
+
+**3 · Cathedral ballerina**
+
+> A ballerina performing mid-air inside an abandoned cathedral with shattered stained-glass windows, dramatic volumetric light rays, flowing fabric, realistic anatomy and hands, dynamic motion blur, high-detail cinematic composition.
+
+**4 · Product poster**
+
+> A clean minimalist product poster for a fictional smartwatch called Aster One, centered on a white background, premium Apple-style advertising design, with the headline Aster One and the tagline Time, refined rendered as perfectly readable typography.
+
+All four used the built-in default negative prompt. Note that SD 1.5 cannot reliably render text — the poster prompt asked for readable lettering and got shapes instead.
+
+</details>
 
 A single-file, CPU-only text-to-image generator. Run it, type a prompt, get a PNG. No GPU, no web UI, no API keys — just Python and patience.
 
